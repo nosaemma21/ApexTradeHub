@@ -1,0 +1,60 @@
+# ==========================================
+# Visual Studio / .NET Core / C# gitignore
+# ==========================================
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Build & Output directories
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][In]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## IDE Working Directories & Settings
+.vs/
+.vscode/
+.idea/
+*_ReSharper*/
+*.DotSettings.user
+
+## NuGet Packages & Auto-Generated Props
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## Local Database Files (SQL Server LocalDB / App_Data)
+*.mdf
+*.ldf
+*.ndf
+
+## Environmental Secrets & Local App Settings (Keep template version in Git!)
+appsettings.Development.json
+appsettings.Local.json
+
+## Publish Outputs & Azure Deployments
+*.PublishSettings
+bin/Release/net8.0/publish/
+
+## Operating System Junk
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
